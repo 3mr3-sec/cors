@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/style/main.css">
+    <title>Cors Expliot</title>
+</head>
+
+<body class="bg-zinc-100">
+    <div class="absolute inset-0 bg-center bg-no-repeat bg-slate-50 dark:bg-[#0B1120] -z-[1]"
+        style='background-image: url("./assets/images/hero-dark.jpg")'>
+        <div class="pattern absolute inset-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5"
+            style="mask-image:linear-gradient(to bottom, transparent, black);-webkit-mask-image:linear-gradient(to bottom, transparent, black)">
+        </div>
+    </div>
+
+    <main>
+        <img class="w-[300px] m-auto mt-[15vh]" src="./assets/images/bear.svg" loading="lazy" />
+
+        <form class="w-max flex justify-center items-center space-x-3 text-xl m-auto mt-[10vh]">
+            <select name="method" id="method" class="h-11 w-24 focus:outline-none rounded-lg px-1">
+                <option value="POST">POST</option>
+                <option value="POST">GET</option>
+            </select>
+            <input type="text" placeholder="schema://target.tld"
+                class="shadow-2xl rounded-lg px-3 focus:outline-none h-11" />
+            <button
+                class="shadow-2xl rounded-lg px-8 font-medium text-indigo-50 bg-gradient-to-r from-pink-600 to-yellow-500 h-11"
+                type="submit">
+                Expliot
+            </button>
+        </form>
+    </main>
+</body>
+
+<script src="./assets/js/exploit.js"></script>
+</html>
