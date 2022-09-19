@@ -9,7 +9,7 @@
 
 ### To-Do List
 
-- [ ] Add simple golang web-server
+- [x] Add simple golang web-server
 - [ ] Release new package
 - [ ] Add `installation` @README.md
 - [ ] find a way to get ACAC, ACAO response headers
