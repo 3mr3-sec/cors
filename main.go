@@ -4,12 +4,10 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"os"
 )
 
 func main() {
-	path, _ := os.Getwd()
-	http.Handle("/", http.FileServer(http.Dir(path)))
+	http.Handle("/", http.FileServer(AssetFile()))
 
 	port := ":7000"
 	fmt.Println("Server is running on http://localhost" + port)
