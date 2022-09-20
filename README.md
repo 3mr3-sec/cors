@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/userdehghani/cors" target="blank">
+  <a href="https://github.com/userdehghani/cors" target="_blank" rel="noopener noreferrer">
     <div>
       <img src="interface/assets/images/bear.svg" width="100" height="100" alt="cors-misconfiguration" />
     </div>
@@ -23,7 +23,7 @@
 <br />
 
 <p>
-  Reusable web-page to exploit [CORS Misconfiguration](https://portswigger.net/web-security/cors).
+  Reusable web-page to exploit <a href="https://portswigger.net/web-security/cors" target="_blank" rel="noopener noreferrer">CORS Misconfiguration</a>.
 </p>
 
 ### Installation
