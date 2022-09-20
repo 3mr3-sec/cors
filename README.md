@@ -9,13 +9,22 @@
 
 <br />
 
-<p align="center">
-  <strong>
-    • <a href="#installation">Installation</a>
-    • <a href="#usage">Uage</a>
-  </strong>
-</p>
+<strong>
+  <ul>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+    </li>
+  </ul>
+</strong>
 
+<br />
+
+<p>
+  Reusable web-page to exploit [CORS Misconfiguration](https://portswigger.net/web-security/cors).
+</p>
 
 ### Installation
 
@@ -23,15 +32,8 @@
 go install github.com/userdehghani/cors@latest
 ```
 
-### Uage
+### Usage
 
 ```bash
 cors
 ```
-
-### To-Do List
-
-- [x] Add simple golang web-server
-- [x] Release new package
-- [x] Add `installation` @README.md
-- [ ] find a way to get ACAC, ACAO response headers
