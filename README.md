@@ -48,6 +48,7 @@ cors
 - [x] Add [exploit](/interface/assets/js/exploit.js)
 - [x] Add [web-server](/main.go)
 - [x] [Embed interface](/interface.go) into `bin` file
+- [x] Add [Dockerfile](/Dockerfile)
 - [ ] Smart [port-binding](/main.go)
 - [ ] Confirm toast to open `Network` tab
 - [ ] Live area to update exploit
