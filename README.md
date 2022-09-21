@@ -17,13 +17,17 @@
     <li>
       <a href="#usage">Usage</a>
     </li>
+    <li>
+      <a href="#to-do-list">To-Do List</a>
+    </li>
   </ul>
 </strong>
 
 <br />
 
 <p>
-  Reusable web-page to exploit <a href="https://portswigger.net/web-security/cors" target="_blank" rel="noopener noreferrer">CORS Misconfiguration</a>.
+  Reusable web-page to exploit <a href="https://portswigger.net/web-security/cors" target="_blank"
+    rel="noopener noreferrer">CORS Misconfiguration</a>.
 </p>
 
 ### Installation
@@ -37,3 +41,14 @@ go install github.com/userdehghani/cors@latest
 ```bash
 cors
 ```
+
+### To-Do List
+
+- [x] Add [interface](/interface)
+- [x] Add [exploit](/interface/assets/js/exploit.js)
+- [x] Add [web-server](/main.go)
+- [x] [Embed interface](/interface.go) into `bin` file
+- [ ] Smart [port-binding](/main.go)
+- [ ] Confirm toast to open `Network` tab
+- [ ] Live area to update exploit
+- [ ] Update `etc/hosts` based on `-u`
